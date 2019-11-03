@@ -58,7 +58,7 @@ import os
 import warnings
 
 from . import imagenet_utils
-from . import preprocess_input
+from .imagenet_utils import preprocess_input
 from . import _obtain_input_shape
 from . import get_submodules_from_kwargs
 
